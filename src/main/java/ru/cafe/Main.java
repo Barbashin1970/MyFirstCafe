@@ -4,7 +4,7 @@ public class Main {
         Cafe restaurant = new Cafe();
         restaurant.checkPears();
         restaurant.showMenu();
-        for (int i = 0; i < restaurant.menuLength(); i++) {
+        for (int i = 0; i < restaurant.menu.length; i++) {
             restaurant.cook(restaurant.menu[i]);
             restaurant.checkPears();
         }
